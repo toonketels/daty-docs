@@ -12,7 +12,7 @@ titleAddition = "Datylon documentation"
 images = ["doks.png"]
 ogLocale = "en_US"
 domainTLD = "doks.netlify.app"
-titleHome = "Doks Theme"
+titleHome = "Datylon"
 
 ## Twitter Cards
 # twitterSite = "@getdoks"
@@ -25,9 +25,9 @@ schemaName = "Doks"
 schemaAuthor = "Henk Verlinde"
 schemaAuthorTwitter = "https://twitter.com/henkverlinde"
 schemaAuthorLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
-schemaAuthorGitHub = "https://github.com/h-enk"
+schemaAuthorGitHub = "https://github.com/toonketels/daty-docs"
 schemaLocale = "en-US"
-schemaLogo = "logo-doks.png"
+schemaLogo = "datylon-logo.png"
 schemaLogoWidth = 512
 schemaLogoHeight = 512
 schemaImage = "doks.png"
@@ -35,7 +35,7 @@ schemaImageWidth = 1280
 schemaImageHeight = 640
 schemaTwitter = "https://twitter.com/getdoks"
 schemaLinkedIn = ""
-schemaGitHub = "https://github.com/h-enk/doks"
+schemaGitHub = "https://github.com/toonketels/daty-docs"
 schemaSection = "blog"
 
 ## Sitelinks Search Box
@@ -64,10 +64,10 @@ defaultImage = "default-image.png" # put in `./assets/images/`
 fillImage = "1270x740 Center" # normalize image size
 
 # Footer
-footer = "Powered by <a class=\"text-muted\" href=\"https://www.netlify.com/\">Netlify</a>, <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a>, and <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a>"
+footer = "Datylon"
 
 # Feed
-copyRight = "Copyright (c) 2020-2021 Henk Verlinde"
+copyRight = "Copyright (c) 2020-2022 Datylon"
 
 # Alert
 alert = true
@@ -76,12 +76,12 @@ alertText = "Introducing the Datylon documentation <a class=\"alert-link stretch
 
 # Edit Page
 # repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster
-repoHost = "Bitbucket"
-docsRepo = "https://github.com/h-enk/doks"
-docsRepoBranch = "master"
-docsRepoSubPath = ""
-editPage = false
-lastMod = false
+repoHost = "Github"
+docsRepo = "https://github.com/toonketels/daty-docs"
+docsRepoBranch = "main"
+docsRepoSubPath = "edit/main"
+editPage = true
+lastMod = true
 
 [sections]
   sectionNav = ["docs", "guides"]
